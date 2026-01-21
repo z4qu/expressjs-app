@@ -17,6 +17,11 @@ app.get('/services', function(req, res){
 	console.log('Zażądano strony Services');
 });
 
+app.get('/test', function(req, res){
+	res.send('DevOps - strona test!');
+	console.log('Zażądano strony test');
+});
+
 app.get('/info', function(req, res){
 	res.send('DevOps - strona Info!');
 	console.log('Zażądano strony Info');
